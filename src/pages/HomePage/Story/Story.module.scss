@@ -1,0 +1,25 @@
+.storyTitle::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 50%;
+  border-top: solid 2px #155bd5;
+}
+.storyTitle {
+  position: relative;
+  font-weight: 600;
+}
+.storySubTitle {
+  line-height: 45px;
+}
+.image {
+  position: relative;
+}
+.image::after {
+  content: url(../../../assets/story.svg);
+  mix-blend-mode: darken;
+  position: absolute;
+  top: -28px;
+  left: -28px;
+}
