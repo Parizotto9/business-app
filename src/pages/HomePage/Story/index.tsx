@@ -9,7 +9,7 @@ export default function Story() {
         w="47%"
         px="12px"
         pos="relative"
-        justifyContent="end"
+        justifyContent="center"
         alignContent="center"
       >
         <Flex

@@ -1,3 +1,3 @@
-export default function RecentWork() {
-  return <div>RecentWork</div>;
+export default function Promo() {
+  return <div>Promo</div>;
 }
