@@ -55,6 +55,7 @@ export default function Services() {
         fontSize="14px"
         mb="15px"
         color="#155bd5"
+        fontWeight="medium"
       >
         Services
       </Text>
