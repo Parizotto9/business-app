@@ -1,6 +1,10 @@
-.tab:hover {
+.tab:hover,
+.tabSelected {
   color: #155bd5;
 }
+// .tabSelected {
+//   background-color: aqua !important;
+// }
 .tab {
   position: relative;
   margin: 0 2px;
@@ -19,6 +23,7 @@
   background-color: #155bd5;
   border-radius: 50px;
 }
-.tab:hover::after {
+.tab:hover::after,
+.tabSelected::after {
   opacity: 1;
 }
